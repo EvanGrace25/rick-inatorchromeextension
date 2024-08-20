@@ -3,7 +3,9 @@
     "name": "rick-inator",
     "version":"1.0",
     "description": "The perfect chrome extension for those who decide to leave their laptops opened. Muahaha",
-    "icons": {"main":"images/logo.png"},
+    "icons": {
+        "16": "logo.png"
+    },
     "permissions": ["declarativeNetRequest"],
     "host_permissions": ["<all_urls>"],
     "declarative_net_request": {
